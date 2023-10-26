@@ -118,6 +118,44 @@ display:none;
 
 
 
+
+
+.footer {
+    background: url(../images/footer-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+    .footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3rem;
+    }
+
+
+    .footer .box-container .box h3{
+        color:var(--white);
+        font-size: 2.5rem;
+        padding-bottom: 2rem;
+        }
+        .footer .box-container .box a{
+        color:var(--light-white);
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+        display: block;
+        }
+
+        .footer .box-container .box a i{
+                              color:var(--main-color);
+                         padding-right: .5rem;
+                         transition:  .2s linear;
+} 
+.footer .box-container .box a:hover i{
+padding-right: 2rem;
+}
+
+
+
 /* media queries */
 @media(max-width:1200px){
 section{
@@ -142,6 +180,16 @@ font-size:55%;
 
     @media(max-width:768px){
      
+        #menu-btn{
+            display: inline-block;
+           transition: .2s linear;
+        }        
+        
+        #menu-btn.fa-times{
+   transform: rotate(180deg);
+ }
+
+
         .header .navbar{
 position: absolute;
 top:99%;
@@ -150,10 +198,18 @@ right:0;
 background-color: var(--white);
 border-top:var(--border);
 padding:2rem;
+transition:  .2s linear;
+clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+ 
 
 
 
         }
+
+        .header .navbar active{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+         }
+         
         
 .header .navbar a{
 display: block;
