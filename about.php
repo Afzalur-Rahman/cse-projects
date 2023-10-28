@@ -49,7 +49,7 @@ ture.</p>
 
 <div class="icon">
 
-<i class"fas fa headset"></a>
+<i class"fas fa headset"></i>
 
 <span>24/7 guide service</span>
 
