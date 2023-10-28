@@ -51,11 +51,11 @@
 
 
 <section class="home">
-<div class="home-slider">
-<div class="W">
+<div class=" swiper home-slider">
+<div class="swiper-wrapper">
 
 
-<div class="slide" style="background:url(images/home-slide-1.jpg) no-repeat">
+<div class="swiper-slide slide" style="background:url(images/home-slide-1.jpg) no-repeat">
 <div class="content">
 <span>explore, discover, travel</span>
 <h3>travel arround the world</h3>
@@ -63,7 +63,7 @@
 </div>
 </div>
 
-<div class="slide" style="background: url(images/home-slide-2.jpg) no-repeat">
+<div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat">
 <div class="content">
 <span>explore, discover, travel</span>
 <h3>discover the new places</h3>
@@ -72,7 +72,7 @@
 </div>
 
 
-<div class="slide" style="background:url(images/home-slide-3.jpg) no-repeat">
+<div class="swiper-slide slide" style="background:url(images/home-slide-3.jpg) no-repeat">
 <div class="content">
 <span>explore, discover, travel</span>
 <h3>make your tour worthwhile</h3>
@@ -84,6 +84,10 @@
 
 
 </div>
+
+<div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
 </div>
 </section>
 <!-- home section ends -->
@@ -131,6 +135,99 @@ I
 </div>
 </section>
 <!-- services section ends -->
+
+
+<!-- home about section starts   -->
+
+
+
+<section class="home-about">
+
+<div class="image">
+<img src="images/about-img-jpg" alt="">
+</div>
+
+<div class="content">
+ <h3>About us</h3>
+ <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum provident magnam iusto nostrum animi nobis rerum numquam id consectetur, dolor nihil eligendi iure ducimus voluptates perferendis in sapiente reiciendis dolore!</p>
+
+<a href="about.php" class="btn">read more</a>
+</div>
+
+
+
+</section>
+<!-- home about section ends   -->
+
+<!-- home packages section starts   -->
+<section class="home-packages">
+<h1 class="heading-title">our packages</h1>
+
+<div class="box">
+<div class="image">
+<img src="images/img-1.jpg" alt="">
+</div>
+<div class="content">
+<h3>adventure & tour</h3>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, ab? Ipsa suscipit in fugit molestias dignissimos eum ratione expedita velit.</p>
+<a href="book.php" class="btn">book now</a>
+</div>
+</div>
+
+
+<div class="box">
+<div class="image">
+<img src="images/img-2.jpg" alt="">
+</div>
+<div class="content">
+<h3>adventure & tour</h3>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, ab? Ipsa suscipit in fugit molestias dignissimos eum ratione expedita velit.</p>
+<a href="book.php" class="btn">book now</a>
+</div>
+</div>
+
+
+<div class="box">
+<div class="image">
+<img src="images/img-3.jpg" alt="">
+</div>
+<div class="content">
+<h3>adventure & tour</h3>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, ab? Ipsa suscipit in fugit molestias dignissimos eum ratione expedita velit.</p>
+<a href="book.php" class="btn">book now</a>
+</div>
+</div>
+
+
+<div class="load-more"><a href="package.php">load more</a></div>
+
+</section>
+
+
+
+
+
+<!-- home pack ends  -->
+
+
+
+<!-- home offer section starts   -->
+
+
+<!-- home offer section starts -->
+
+<section class="home-offer">
+   <div class="content">
+<h3>upto 50% off</h3>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure tempora a:
+nesciunt maiores guas! Magni cumque guaerat saepe!</p>
+<a href="book.php" class="btn">book now</a>
+</div>
+
+</section>
+<!-- home offer section ends  -->
+
+
 
 
 

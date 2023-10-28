@@ -7,4 +7,12 @@ navbar.classList.toggle('active');
 window.onscroll = () =>{
 menu.classList.remove('fa-times');
 navbar.classList.remove('active');
-} I
+};
+
+var swiper = new Swiper(".mySwiper", {
+    loop:true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+});
