@@ -46,6 +46,95 @@
 <!-- header section ends    -->
 
 
+
+<!-- home section starts here   -->
+
+
+<section class="home">
+<div class="home-slider">
+<div class="W">
+
+
+<div class="slide" style="background:url(images/home-slide-1.jpg) no-repeat">
+<div class="content">
+<span>explore, discover, travel</span>
+<h3>travel arround the world</h3>
+<a href="package.php" class="btn">discover more</a>
+</div>
+</div>
+
+<div class="slide" style="background: url(images/home-slide-2.jpg) no-repeat">
+<div class="content">
+<span>explore, discover, travel</span>
+<h3>discover the new places</h3>
+<a href="package.php" class="btn">discover more</a>
+</div>
+</div>
+
+
+<div class="slide" style="background:url(images/home-slide-3.jpg) no-repeat">
+<div class="content">
+<span>explore, discover, travel</span>
+<h3>make your tour worthwhile</h3>
+<a href="package.php" class="btn">discover more</a>
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+</section>
+<!-- home section ends -->
+
+
+
+
+
+
+<!-- service sevctions starts here    -->
+
+
+<section class="services">
+<h1 class="heading-title"> our services </h1>
+<div class="box-container">
+
+<div class="box">
+<img src="images/icon-1.png" alt="">
+</div>
+
+<div class="box">
+<img src="images/icon-2.png" alt="">
+<h3>tour guide</h3>
+</div>
+I
+<div class="box">
+<img src="images/icon-3.png" alt="">
+<h3>trekking</h3>
+</div>
+<div class="box">
+<img src="images/icon-4.png" alt="">
+<h3>camp fire</h3>
+</div>
+
+<div class="box">
+<img src="images/icon-5.png" alt="">
+<h3>off road</h3>
+</div>
+<div class="box">
+<img src="images/icon-6.png" alt="">
+<h3>camping</h3>
+</div>
+
+
+</div>
+</section>
+<!-- services section ends -->
+
+
+
+
 <!-- footer starts here  -->
 
 <section class="footer">
@@ -86,6 +175,9 @@
 
 
 </div>
+
+<div class="credit"> created by <span>mr.Afzal</span> | all rights reserved! </div>
+
 </section>
 
 
