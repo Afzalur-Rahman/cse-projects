@@ -24,7 +24,7 @@
 commodi libero, vitae obcaecati optio rerum ab culpa nesciunt, earum mollitia quasi ipsam non. Aliquid, 
 ture.</p>
 
-<h3>why choose us?</i>
+<h3>why choose us?</h3>
 
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum, delectus voluptate aliquam
      quaerat iusto repellendus error nulla ab atque.</p>
